@@ -1,12 +1,10 @@
 if [ $1 ]; then
-  input=$1
-  echo "Will process $1"
+  input="./reports/WR$1.md"
+  output="itlab-vision-WR$1.html"
 else
-  input=./`date +%F`.md
+  input="./reports/WR`date +%V`.md"
+  output="itlab-vision-WR`date +%V`.html"
 fi
-
-output="itlab-vision-weekly-report-WW`date +%V`.html"
-#output="Itseez-Tegra-Camera--MonthyReport--July2013.html"
 
 if [ ! -f $output ] || [ $input -nt $output ]; then
   echo "Source file was updated!"
