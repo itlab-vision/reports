@@ -1,4 +1,4 @@
-##Результаты сегментации val датасета для обученной мною модели (largeFOV) после crf:
+##Р РµР·СѓР»СЊС‚Р°С‚С‹ СЃРµРіРјРµРЅС‚Р°С†РёРё val РґР°С‚Р°СЃРµС‚Р° РґР»СЏ РѕР±СѓС‡РµРЅРЅРѕР№ РјРЅРѕСЋ РјРѕРґРµР»Рё (largeFOV) РїРѕСЃР»Рµ crf:
 
 Percentage of pixels correctly labelled overall: 93.760%
 
@@ -53,7 +53,7 @@ Mean Class Accuracy: 85.778%
 Average accuracy: 73.969%
 
 
-##Результаты deeplab_largeFOV после crf на val:
+##Р РµР·СѓР»СЊС‚Р°С‚С‹ deeplab_largeFOV РїРѕСЃР»Рµ crf РЅР° val:
 
 Percentage of pixels correctly labelled overall: 94.681%
 
@@ -107,4 +107,4 @@ Mean Class Accuracy: 89.302%
 -------------------------
 Average accuracy: 77.609%
 
-На тестовых данных их результаты падают на 7% как видно из [таблицы](http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?cls=mean&challengeid=11&compid=6&submid=4581).
+РќР° С‚РµСЃС‚РѕРІС‹С… РґР°РЅРЅС‹С… РёС… СЂРµР·СѓР»СЊС‚Р°С‚С‹ РїР°РґР°СЋС‚ РЅР° 7% РєР°Рє РІРёРґРЅРѕ РёР· [С‚Р°Р±Р»РёС†С‹](http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?cls=mean&challengeid=11&compid=6&submid=4581).
