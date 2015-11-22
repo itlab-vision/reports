@@ -108,3 +108,58 @@ Mean Class Accuracy: 89.302%
 Average accuracy: 77.609%
 
 На тестовых данных их результаты падают на 7% как видно из [таблицы](http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?cls=mean&challengeid=11&compid=6&submid=4581).
+
+
+##Результаты deeplab_MSc_CRF_largeFOV на val:
+
+Percentage of pixels correctly labelled overall: 95.310%
+
+###Accuracy for each class (pixel accuracy)
+      background: 96.864%
+       aeroplane: 96.076%
+         bicycle: 71.719%
+            bird: 96.262%
+            boat: 92.184%
+          bottle: 91.954%
+             bus: 97.317%
+             car: 92.386%
+             cat: 97.341%
+           chair: 56.756%
+             cow: 94.070%
+     diningtable: 76.997%
+             dog: 95.041%
+           horse: 93.067%
+       motorbike: 93.415%
+          person: 92.707%
+     pottedplant: 81.300%
+           sheep: 95.854%
+            sofa: 81.503%
+           train: 95.287%
+       tvmonitor: 87.170%
+-------------------------
+Mean Class Accuracy: 90.298%
+
+###Accuracy for each class (intersection/union measure)
+      background: 94.797%
+       aeroplane: 89.681%
+         bicycle: 61.726%
+            bird: 89.355%
+            boat: 79.238%
+          bottle: 79.276%
+             bus: 90.856%
+             car: 85.748%
+             cat: 89.883%
+           chair: 43.446%
+             cow: 88.147%
+     diningtable: 65.292%
+             dog: 89.012%
+           horse: 84.817%
+       motorbike: 81.897%
+          person: 85.012%
+     pottedplant: 68.625%
+           sheep: 90.930%
+            sofa: 66.651%
+           train: 86.722%
+       tvmonitor: 66.367%
+-------------------------
+Average accuracy: 80.350%
