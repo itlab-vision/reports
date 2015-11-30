@@ -1,5 +1,6 @@
 ##Результаты сегментации __val__ датасета для обученной нами модели largeFOV после crf:
 Accuracy for each class (intersection/union measure)
+```
       background: 93.168%
        aeroplane: 85.908%
          bicycle: 35.281%
@@ -23,10 +24,12 @@ Accuracy for each class (intersection/union measure)
        tvmonitor: 65.882%
 -------------------------
 Average accuracy: 73.969%
+```
 
 
 ##Результаты deeplab_largeFOV после crf на val:
 Accuracy for each class (intersection/union measure)
+```
       background: 93.977%
        aeroplane: 87.282%
          bicycle: 38.160%
@@ -50,12 +53,13 @@ Accuracy for each class (intersection/union measure)
        tvmonitor: 66.179%
 -------------------------
 Average accuracy: 77.609%
-
+```
 На тестовых данных их результаты падают на 7% как видно из [таблицы](http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?cls=mean&challengeid=11&compid=6&submid=4581).
 
 
 ##Результаты deeplab_MSc_CRF_largeFOV на val:
 Accuracy for each class (intersection/union measure)
+```
       background: 94.797%
        aeroplane: 89.681%
          bicycle: 61.726%
@@ -79,10 +83,11 @@ Accuracy for each class (intersection/union measure)
        tvmonitor: 66.367%
 -------------------------
 Average accuracy: 80.350%
-
+```
 
 ##Результаты нашей MSc_CRF_largeFOV на val:
 Accuracy for each class (intersection/union measure)
+```
       background: 93.446%
        aeroplane: 87.810%
          bicycle: 37.295%
@@ -106,3 +111,4 @@ Accuracy for each class (intersection/union measure)
        tvmonitor: 64.986%
 -------------------------
 Average accuracy: 75.444%
+```
