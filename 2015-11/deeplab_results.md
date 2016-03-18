@@ -1,33 +1,6 @@
-##Результаты сегментации val датасета для обученной мною модели (largeFOV) после crf:
-
-Percentage of pixels correctly labelled overall: 93.760%
-
-###Accuracy for each class (pixel accuracy)
-      background: 96.298%
-       aeroplane: 94.828%
-         bicycle: 86.105%
-            bird: 91.340%
-            boat: 88.158%
-          bottle: 87.873%
-             bus: 91.940%
-             car: 90.064%
-             cat: 96.585%
-           chair: 62.706%
-             cow: 88.468%
-     diningtable: 65.416%
-             dog: 91.196%
-           horse: 90.512%
-       motorbike: 93.403%
-          person: 90.209%
-     pottedplant: 79.171%
-           sheep: 88.299%
-            sofa: 59.030%
-           train: 88.956%
-       tvmonitor: 80.779%
--------------------------
-Mean Class Accuracy: 85.778%
-
-###Accuracy for each class (intersection/union measure)
+##Результаты сегментации __val__ датасета для обученной нами модели largeFOV после crf:
+Accuracy for each class (intersection/union measure)
+```
       background: 93.168%
        aeroplane: 85.908%
          bicycle: 35.281%
@@ -51,38 +24,12 @@ Mean Class Accuracy: 85.778%
        tvmonitor: 65.882%
 -------------------------
 Average accuracy: 73.969%
+```
 
 
 ##Результаты deeplab_largeFOV после crf на val:
-
-Percentage of pixels correctly labelled overall: 94.681%
-
-###Accuracy for each class (pixel accuracy)
-      background: 96.193%
-       aeroplane: 96.125%
-         bicycle: 84.208%
-            bird: 95.926%
-            boat: 92.543%
-          bottle: 91.124%
-             bus: 96.722%
-             car: 92.808%
-             cat: 97.002%
-           chair: 58.362%
-             cow: 92.975%
-     diningtable: 73.571%
-             dog: 95.105%
-           horse: 92.623%
-       motorbike: 92.906%
-          person: 92.018%
-     pottedplant: 81.402%
-           sheep: 95.133%
-            sofa: 77.264%
-           train: 95.157%
-       tvmonitor: 86.179%
--------------------------
-Mean Class Accuracy: 89.302%
-
-###Accuracy for each class (intersection/union measure)
+Accuracy for each class (intersection/union measure)
+```
       background: 93.977%
        aeroplane: 87.282%
          bicycle: 38.160%
@@ -106,40 +53,13 @@ Mean Class Accuracy: 89.302%
        tvmonitor: 66.179%
 -------------------------
 Average accuracy: 77.609%
-
+```
 На тестовых данных их результаты падают на 7% как видно из [таблицы](http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?cls=mean&challengeid=11&compid=6&submid=4581).
 
 
 ##Результаты deeplab_MSc_CRF_largeFOV на val:
-
-Percentage of pixels correctly labelled overall: 95.310%
-
-###Accuracy for each class (pixel accuracy)
-      background: 96.864%
-       aeroplane: 96.076%
-         bicycle: 71.719%
-            bird: 96.262%
-            boat: 92.184%
-          bottle: 91.954%
-             bus: 97.317%
-             car: 92.386%
-             cat: 97.341%
-           chair: 56.756%
-             cow: 94.070%
-     diningtable: 76.997%
-             dog: 95.041%
-           horse: 93.067%
-       motorbike: 93.415%
-          person: 92.707%
-     pottedplant: 81.300%
-           sheep: 95.854%
-            sofa: 81.503%
-           train: 95.287%
-       tvmonitor: 87.170%
--------------------------
-Mean Class Accuracy: 90.298%
-
-###Accuracy for each class (intersection/union measure)
+Accuracy for each class (intersection/union measure)
+```
       background: 94.797%
        aeroplane: 89.681%
          bicycle: 61.726%
@@ -163,3 +83,32 @@ Mean Class Accuracy: 90.298%
        tvmonitor: 66.367%
 -------------------------
 Average accuracy: 80.350%
+```
+
+##Результаты нашей MSc_CRF_largeFOV на val:
+Accuracy for each class (intersection/union measure)
+```
+      background: 93.446%
+       aeroplane: 87.810%
+         bicycle: 37.295%
+            bird: 87.934%
+            boat: 70.576%
+          bottle: 77.543%
+             bus: 90.966%
+             car: 83.090%
+             cat: 87.331%
+           chair: 39.676%
+             cow: 86.184%
+     diningtable: 60.957%
+             dog: 85.646%
+           horse: 82.628%
+       motorbike: 78.506%
+          person: 82.878%
+     pottedplant: 60.192%
+           sheep: 88.430%
+            sofa: 54.002%
+           train: 84.249%
+       tvmonitor: 64.986%
+-------------------------
+Average accuracy: 75.444%
+```
